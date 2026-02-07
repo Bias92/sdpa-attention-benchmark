@@ -52,6 +52,16 @@ The goal is to provide concrete, reproducible evidence of why backend choice mat
   - Latency: **~55.4× faster**
   - VRAM: **~73.7× reduction**
 
+
+### Representative traces
+
+**math @ S=2048**
+![math_s2048](nsys/nsys_sdpa_math_S2048_kernel_timeline.png)
+
+**flash @ S=2048**
+![flash_s2048](nsys/nsys_flash_S2048_kernel_launch.png)
+
+
 **Key takeaway:**  
 > Flash SDPA achieves *order-of-magnitude* latency speedup and *dramatic* VRAM reduction,
 > with the performance gap widening as sequence length increases.
