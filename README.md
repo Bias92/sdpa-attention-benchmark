@@ -52,7 +52,7 @@ The goal is to provide concrete, reproducible evidence of why backend choice mat
   - Latency: **~55.4× faster**
   - VRAM: **~73.7× reduction**
 
-
+--- 
 ### Representative traces
 
 **math @ S=2048**
@@ -99,7 +99,7 @@ Representative traces are included in `nsys/`:
 ---
 
 ## Positioning
-This project is intended as an **ML Systems / GPU performance profiling** artifact:
+This project is intended as an **MLSys / GPU performance profiling** artifact:
 - Demonstrates understanding of attention kernel behavior
 - Uses industry-standard profiling tools (Nsight Systems)
 - Provides reproducible, quantitative evidence rather than anecdotal claims
