@@ -5,7 +5,7 @@ demonstrates the performance gap between the `math` and `flash` backends using *
 and **Nsight Systems profiling**.
 
 The goal is to provide concrete, reproducible evidence of why backend choice matters for
-**LLM inference and ML systems performance**.
+**LLM inference and ML systems performance**. and practise profiling tool ( e.g ncu,nsys )
 
 ---
 
